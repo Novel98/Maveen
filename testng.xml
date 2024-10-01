@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/dsouz/IdeaProjects/Maveen">
+        <classes>
+            <class name="Testngbasic.BeforeAfterMethod">
+                <methods>
+                    <include name="verifyMethod_1"/>
+                    <include name="verifyMethod_2"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.BeforeAndMethodAnotation">
+                <methods>
+                    <include name="openAmazonUrl"/>
+                    <include name="openSeleniumUrl"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.DependOnMethod">
+                <methods>
+                    <include name="verifyLogin"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.Depends">
+                <methods>
+                    <include name="verifypayment"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.InvocationCountAttribute">
+                <methods>
+                    <include name="verifyInvocationcount"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.NeedOfTest">
+                <methods>
+                    <include name="openAmazonUrl"/>
+                    <include name="openSeleniumUrl"/>
+                </methods>
+            </class>
+            <class name="Testngbasic.PriorityExample">
+                <methods>
+                    <include name="testcaseA"/>
+                    <include name="testcaseE"/>
+                    <include name="testcaseC"/>
+                    <include name="testcaseD"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
