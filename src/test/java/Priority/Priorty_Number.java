@@ -23,6 +23,7 @@ public class Priorty_Number {
     @Test(priority =-3)
     public void testcaseh(){
         System.out.println("this is B");
+        driver.close();
     }
 }
 
