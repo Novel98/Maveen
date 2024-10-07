@@ -20,5 +20,6 @@ public class Depends {
     @Test(enabled = false)
     public void verifypayment(){
         System.out.println("pay the order");
+        driver.close();
     }
 }

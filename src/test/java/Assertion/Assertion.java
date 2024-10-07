@@ -14,7 +14,7 @@ public class Assertion {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//[text()='Create a Rediffmail account']")).click();
         String text=driver.findElement(By.xpath("//td[text()='Create a Rediffmail account']")).getText();
-
+System.out.println("hii");
        // Assert.a
     }
 }
