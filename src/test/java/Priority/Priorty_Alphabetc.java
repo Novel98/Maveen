@@ -8,4 +8,5 @@ public class Priorty_Alphabetc {
     
     System.out.println("hii");
     System.out.println("hii");
+System.out.println("hii noel");
 }
